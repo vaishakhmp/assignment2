@@ -1,7 +1,13 @@
-const marks = [95, 86, 66, 94, 58];
-var average = 0;
-for (let i=0; i<marks.length; i++){
-    average = 
+const a='malayalam';
+function checkPalindrome(string) {
+    const arrayValues = string.split('');
+    const reverseArrayValues = arrayValues.reverse();
+    const reverseString = reverseArrayValues.join('');
+    if(string == reverseString) {
+        console.log('It is a palindrome');
+    }
+    else {
+        console.log('It is not a palindrome');
+    }
 }
-
-console.log(average); 
+checkPalindrome(a);
