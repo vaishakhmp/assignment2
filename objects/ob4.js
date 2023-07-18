@@ -1,6 +1,5 @@
 const a=[10,20,30,10,40,-2];
 var b={};
-var count=0;
 for(let i=0;i<a.length;i++)
     {
     count=0;
