@@ -1,5 +1,2 @@
-const a=["Edstem","Tech"];
-var b=a.map(function(e)
-{
-    return e[0]})
-console.log(b)
+a=["Edstem","Tech"]
+console.log(a.map(n=>n[0]));
